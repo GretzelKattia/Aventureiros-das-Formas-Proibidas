@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #c77d81;
+    overflow: hidden; 
+    width: auto;
+    height: 100vh;
+
+}
+
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+.navbar-brand-light {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;  
+    font-size: 30px;
+    text-decoration:none !important;
+
+}
+
+.my-sm-0 {
+    background-color: #596475;
+    color: #fff;
+    border: none;
+
+}
+
+.my-sm-0:hover {
+    background-color: #1F2232;
+}
+
+.bg {
+    background-size: cover;
+    background-position: center;
+    width: 100vw; /* Garante que a largura da imagem seja igual à largura da janela do navegador */
+    height: 100vh;
+}
+
+#conteudo1 {
+    background-color: rgba(61, 49, 74, 0.7); 
+    
+    padding: 50px;
+    border-radius: 30px;
+}
+
+#conteudo2 {
+    background-color: rgba(61, 49, 74, 0.7); 
+    
+    padding: 50px;
+    border-radius: 30px;
+}
+
+.btn-custom-pink {
+    background-color: #c77d81;
+    border-radius: 15px;
+    padding: 6px 11px;
+    color: white;
+}
+
+.btn-custom-pink:hover {
+    background-color: #c26a6e;
+}
+
+.btn-custom-purple {
+    background-color: #aa8efd;
+    border-radius: 15px;
+    padding: 6px 11px;
+    color: white;
+}
+
+.btn-custom-purple:hover {
+    background-color: #9d7cff;
+}

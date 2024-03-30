@@ -1,0 +1,81 @@
+body {
+    background-color: #F5F5F5;
+    width: auto;
+    height: 100vh;
+
+}
+
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+.navbar-brand-light {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;  
+    font-size: 30px;
+    text-decoration: none !important;
+}
+
+.my-sm-0 {
+    background-color: #57a962;
+    color: #fff;
+    border: none; 
+
+}
+
+.my-sm-0:hover {
+    background-color: #67a36f;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajuste o tamanho da imagem para cobrir o espaço disponível */
+}
+
+
+.card-body {
+    background-color: #EFEFEB;
+}
+
+.espacamento {
+    padding: 0% 2% ;
+    padding-bottom: 1%;
+}
+
+
+
+.card_conteudo {
+    background-color: #F5F5F5;
+}
+
+.card-deck {
+    margin: 2% 0%;
+
+}
+
+.btn-custom-pink {
+    color: #fff;
+    background-color: #CC464C; 
+    padding: 6px 11px;
+    border: none; 
+}
+
+.btn-custom-pink:hover {
+    color: #fff;
+    background-color: #cc5e64;
+}
+
+
+.btn-custom-purple {
+    color: #fff;
+    background-color: #3A1772; 
+    border: none;
+}
+
+.btn-custom-purple:hover {
+    color: #fff;
+    background-color: #433062; 
+}
