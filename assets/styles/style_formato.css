@@ -1,17 +1,12 @@
 body {
     font-family: Arial, sans-serif;
     color: white;
-    background-color: #c77d81;
-    overflow: hidden; 
-    width: auto;
-    height: 100vh;
-
+    background-color: #ffffff;
+    width: 100vh;
+    height: auto;
 }
 
-* {
-    margin: 0;
-    padding: 0%;
-}
+
 
 .navbar-brand-light {
     font-family: "Luckiest Guy", cursive;
@@ -19,14 +14,12 @@ body {
     font-style: normal;  
     font-size: 30px;
     text-decoration:none !important;
-
 }
 
 .my-sm-0 {
     background-color: #596475;
     color: #fff;
     border: none;
-
 }
 
 .my-sm-0:hover {
@@ -36,20 +29,18 @@ body {
 .bg {
     background-size: cover;
     background-position: center;
-    width: 100vw; /* Garante que a largura da imagem seja igual à largura da janela do navegador */
+    width: auto; 
     height: 100vh;
 }
 
 #conteudo1 {
     background-color: rgba(61, 49, 74, 0.7); 
-    
     padding: 50px;
     border-radius: 30px;
 }
 
 #conteudo2 {
     background-color: rgba(61, 49, 74, 0.7); 
-    
     padding: 50px;
     border-radius: 30px;
 }
@@ -57,7 +48,6 @@ body {
 .btn-custom-pink {
     background-color: #c77d81;
     border-radius: 15px;
-    padding: 6px 11px;
     color: white;
 }
 
@@ -68,10 +58,71 @@ body {
 .btn-custom-purple {
     background-color: #aa8efd;
     border-radius: 15px;
-    padding: 6px 11px;
     color: white;
 }
 
 .btn-custom-purple:hover {
     background-color: #9d7cff;
 }
+
+@media only screen and (max-width: 665px) {
+
+    #conteudo1 {
+        margin: 2% 0%;
+    }
+
+    #conteudo2 {
+        margin: 2% 0%;
+    } 
+
+    /* .form-inline input[type="search"] {
+        width: 150px; 
+    } */
+
+}
+
+@media only screen and (max-width: 425px) {
+    #conteudo1 {
+        padding: 30px;
+        margin: 10% 0%;
+    }
+
+    #conteudo2 {
+        padding: 30px;
+        margin: 5% 0%;
+    } 
+
+    h1 {
+        font-size: 1.5rem; 
+    }
+
+    h3 {
+        font-size: 1.2rem; 
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    .btn-custom-pink {
+        font-size: 0.8rem;
+    }
+
+    .btn-custom-purple {
+        font-size: 0.8rem;
+    }
+
+    .navbar-brand-light {
+        font-size: 1.5rem;
+    }
+
+
+    .my-sm-0 {
+        display: none;
+    }
+
+    .form-inline input[type="search"] {
+        display: none;
+    }
+}
+

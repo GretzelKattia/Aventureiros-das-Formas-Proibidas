@@ -1,14 +1,18 @@
 body {
     background-color: #F5F5F5;
+
     width: auto;
     height: 100vh;
 
 }
 
+
 * {
     margin: 0;
     padding: 0%;
 }
+
+
 
 .navbar-brand-light {
     font-family: "Luckiest Guy", cursive;
@@ -59,7 +63,6 @@ body {
 .btn-custom-pink {
     color: #fff;
     background-color: #CC464C; 
-    padding: 6px 11px;
     border: none; 
 }
 
@@ -78,4 +81,47 @@ body {
 .btn-custom-purple:hover {
     color: #fff;
     background-color: #433062; 
+}
+
+
+@media only screen and (max-width: 850px) {
+    body {
+        width: 100vh;
+        height: auto;
+    
+    }
+}
+
+@media only screen and (max-width: 570px) {
+
+    #conteudo1 {
+        margin: 2% 0%;
+    }
+
+    #conteudo2 {
+        margin: 2% 0%;
+    } 
+
+    .form-inline input[type="search"] {
+        width: 200px; 
+        margin: 0px 10px;
+    } 
+
+}
+
+@media only screen and (max-width: 320px) {
+
+    #conteudo1 {
+        margin: 2% 0%;
+    }
+
+    #conteudo2 {
+        margin: 2% 0%;
+    } 
+
+    .form-inline input[type="search"] {
+        width: 150px; 
+        margin: 0px 10px;
+    } 
+
 }
