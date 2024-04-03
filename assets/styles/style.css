@@ -1,8 +1,9 @@
 body {
     background-color: #F5F5F5;
 
-    width: auto;
-    height: 100vh;
+    width: 100vw;
+    /* height: auto; */
+    margin: 0%;
 
 }
 
@@ -83,16 +84,24 @@ body {
     background-color: #433062; 
 }
 
+footer .col-md-4 {
+    text-align: center; /* Centralizar o texto */
+}
+
 
 @media only screen and (max-width: 850px) {
     body {
-        width: 100vh;
+        width: 100%;
         height: auto;
     
     }
 }
 
 @media only screen and (max-width: 570px) {
+
+    .espacamento {
+        margin: 2% 0;
+    }
 
     #conteudo1 {
         margin: 2% 0%;
@@ -110,6 +119,10 @@ body {
 }
 
 @media only screen and (max-width: 320px) {
+    body {
+        width: 100%;
+    
+    }
 
     #conteudo1 {
         margin: 2% 0%;
@@ -123,5 +136,5 @@ body {
         width: 150px; 
         margin: 0px 10px;
     } 
-
+    
 }
