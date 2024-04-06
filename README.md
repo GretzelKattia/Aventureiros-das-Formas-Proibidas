@@ -5,6 +5,19 @@ Este projeto, denominado "Formas Proibidas", foi desenvolvido como parte de um e
 visando integrar habilidades de codificação com a criação de uma aplicação web interativa. O principal objetivo foi criar uma plataforma que permitisse aos usuários 
 explorar diversas formas geométricas e realizar cálculos das áreas correspondentes.
 
+## Demostração
+O projeto está adaptado para telas amiores
+
+
+https://github.com/GretzelKattia/Aventureiros-das-Formas-Proibidas/assets/146984390/a9104aba-ccf4-46d0-b9de-33c1848956f2
+
+
+
+
+
+https://github.com/GretzelKattia/Aventureiros-das-Formas-Proibidas/assets/146984390/7aa895d0-4e4d-43ce-b267-9af2677100c9
+
+
 ## Estrutura do Projeto
 
 O projeto está organizado da seguinte arquivos:
