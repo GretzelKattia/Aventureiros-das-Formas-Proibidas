@@ -18,10 +18,6 @@ E também está adaptado para telas menores:
 
 
 
-## Estrutura do Projeto
-
-
-
 https://github.com/GretzelKattia/Aventureiros-das-Formas-Proibidas/assets/146984390/7aa895d0-4e4d-43ce-b267-9af2677100c9
 
 
