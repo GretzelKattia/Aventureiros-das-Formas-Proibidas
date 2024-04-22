@@ -1,9 +1,14 @@
 body {
     background-color: #F5F5F5;
-
-    width: 100vw;
-    /* height: auto; */
+    width: 100%;
+    height: auto;
     margin: 0%;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+
 
 }
 
@@ -13,20 +18,27 @@ body {
     padding: 0%;
 }
 
-
+.card-title {
+    font-size: 25px;
+    font-family: "Gothic A1", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
 
 .navbar-brand-light {
+    /* font-family: "Luckiest Guy", cursive; */
     font-family: "Luckiest Guy", cursive;
     font-weight: 400;
-    font-style: normal;  
+    font-style: normal;
     font-size: 30px;
     text-decoration: none !important;
+
 }
 
 .my-sm-0 {
     background-color: #57a962;
     color: #fff;
-    border: none; 
+    border: none;
 
 }
 
@@ -35,9 +47,12 @@ body {
 }
 
 .card-img-top {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Ajuste o tamanho da imagem para cobrir o espaço disponível */
+    max-width: 100vw;
+    height: auto;
+    padding: 0;
+    /* Adicione esta linha para remover a margem branca */
+
+    /* object-fit: cover;  */
 }
 
 
@@ -46,7 +61,7 @@ body {
 }
 
 .espacamento {
-    padding: 0% 2% ;
+    padding: 0% 1%;
     padding-bottom: 1%;
 }
 
@@ -63,8 +78,8 @@ body {
 
 .btn-custom-pink {
     color: #fff;
-    background-color: #CC464C; 
-    border: none; 
+    background-color: #CC464C;
+    border: none;
 }
 
 .btn-custom-pink:hover {
@@ -75,29 +90,47 @@ body {
 
 .btn-custom-purple {
     color: #fff;
-    background-color: #3A1772; 
+    background-color: #3A1772;
     border: none;
 }
 
 .btn-custom-purple:hover {
     color: #fff;
-    background-color: #433062; 
+    background-color: #433062;
 }
 
 footer .col-md-4 {
-    text-align: center; /* Centralizar o texto */
+    text-align: center;
+    /* Centralizar o texto */
+}
+
+mb-0 {
+    padding: 0%;
+    margin: 0;
 }
 
 
 @media only screen and (max-width: 850px) {
     body {
+        font-size: 15px;
+
         width: 100%;
         height: auto;
-    
+
     }
+
+    .card-title {
+        font-size: 100%;
+    }
+
+    .btn-custom-pink {
+        font-size: 90%;
+    }
+
 }
 
 @media only screen and (max-width: 570px) {
+
 
     .espacamento {
         margin: 2% 0;
@@ -109,20 +142,21 @@ footer .col-md-4 {
 
     #conteudo2 {
         margin: 2% 0%;
-    } 
+    }
 
     .form-inline input[type="search"] {
-        width: 200px; 
+        width: 200px;
         margin: 0px 10px;
-    } 
+    }
 
 }
 
 @media only screen and (max-width: 320px) {
     body {
         width: 100%;
-    
+
     }
+
 
     #conteudo1 {
         margin: 2% 0%;
@@ -130,11 +164,11 @@ footer .col-md-4 {
 
     #conteudo2 {
         margin: 2% 0%;
-    } 
+    }
 
     .form-inline input[type="search"] {
-        width: 150px; 
+        width: 150px;
         margin: 0px 10px;
-    } 
-    
+    }
+
 }
